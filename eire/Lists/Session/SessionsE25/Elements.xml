@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Заняття групи E25" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/SessionsE25" Description="Заплановані найближчим часом заняття групи E25">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Цифровий маркетинг</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Латеральне мислення</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Стигметрія</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Екзаптація</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

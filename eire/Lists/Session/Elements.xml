@@ -8,7 +8,7 @@
         OnQuickLaunch="TRUE"
         SecurityBits="11"
         Sequence="410"
-        DisplayName="Session"
-        Description="My List Definition"
+        DisplayName="Заняття"
+        Description="Заняття, що їх заплановано провести найближчим часом"
         Image="/_layouts/15/images/itgen.png"/>
 </Elements>

@@ -43,7 +43,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Lists\Session\SessionInstance\SharePointProjectItem.spdata">
+    <None Include="Lists\Session\SessionsE25\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8efff0ee-c453-4646-ad73-1b98cd30df8e}</SharePointProjectItemId>
     </None>
     <None Include="Lists\Session\SharePointProjectItem.spdata">
@@ -57,7 +57,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Lists\Session\Schema.xml" />
-    <Content Include="Lists\Session\SessionInstance\Elements.xml" />
+    <Content Include="Lists\Session\SessionsE25\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -96,11 +96,11 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\SessionComponents\SessionComponents.feature">
       <FeatureId>{58a280bf-ec51-4c21-8223-799515b8e00e}</FeatureId>
     </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <None Include="Features\SessionComponents\SessionComponents.Template.xml">
+      <DependentUpon>SessionComponents.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
