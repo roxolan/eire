@@ -43,10 +43,21 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Lists\Session\SessionInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8efff0ee-c453-4646-ad73-1b98cd30df8e}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Session\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bd22d4fb-3549-40ad-b3e0-0d5e667082cc}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7504b89b-3970-46e5-8e75-185cf8125ac1}</SharePointProjectItemId>
     </None>
+    <Content Include="Lists\Session\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\Session\Schema.xml" />
+    <Content Include="Lists\Session\SessionInstance\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
