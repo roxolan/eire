@@ -4,6 +4,11 @@
     <Data>
       <Rows>
         <Row>
+          <Field Name="Title">Рефлексія року</Field>
+          <Field Name="SchoolDepartment">P12</Field>
+          <Field Name="SessionStage">Session announced</Field>
+        </Row>
+        <Row>
           <Field Name="Title">Цифровий маркетинг</Field>
         </Row>
         <Row>

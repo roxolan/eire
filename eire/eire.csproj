@@ -43,12 +43,18 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Content Types\NewSession\Elements.xml" />
-    <Content Include="Features\SessionComponents\SessionComponents.Template.xml" />
-    <Content Include="Site Columns\SchoolDepartment\Elements.xml" />
-    <Content Include="Site Columns\SessionStage\Elements.xml" />
-    <None Include="Content Types\NewSession\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{846d2899-5acb-4ef8-a29f-0dddb0558b27}</SharePointProjectItemId>
+    <Content Include="Content Types\NewLearningSession\Elements.xml" />
+    <Content Include="Features\SessionComponents\SessionComponents.Template.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Site Columns\SchoolDepartment\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Site Columns\SessionStage\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Content Types\NewLearningSession\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{adf3e9af-73d8-4ce6-b6c1-e96beb357aaf}</SharePointProjectItemId>
     </None>
     <None Include="Features\SessionComponents\SessionComponents.feature">
       <FeatureId>{e0ed7426-8df8-40f2-9534-5c0dcfce60d2}</FeatureId>
@@ -67,11 +73,14 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Lists\NewLearningSession\Schema.xml" />
-    <Content Include="Lists\NewLearningSession\NewLearningSessionsE25\Elements.xml" />
+    <Content Include="Lists\NewLearningSession\NewLearningSessionsE25\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
     <None Include="Site Columns\SchoolDepartment\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{1dfe4ee3-b0fa-4ec4-b8f1-4b74645dbddd}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Site Columns\SessionStage\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{160cdfa2-6b26-405e-beab-b72a9ab969ef}</SharePointProjectItemId>
@@ -111,6 +120,7 @@
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +128,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,4 +4,7 @@
     <ProjectItemFile Source="Elements.xml" Target="NewLearningSession\" Type="ElementManifest" />
     <ProjectItemFile Source="Schema.xml" Target="NewLearningSession\" Type="ElementFile" />
   </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x0100d703dfa5c590440ebce192cfecba7b40" />
+  </ExtensionData>
 </ProjectItem>
