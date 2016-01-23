@@ -53,6 +53,8 @@
     <Content Include="Site Columns\SessionStage\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="WorkflowHistoryList\Elements.xml" />
+    <Content Include="WorkflowTaskList\Elements.xml" />
     <None Include="Content Types\NewLearningSession\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{adf3e9af-73d8-4ce6-b6c1-e96beb357aaf}</SharePointProjectItemId>
     </None>
@@ -84,6 +86,15 @@
     </None>
     <None Include="Site Columns\SessionStage\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{160cdfa2-6b26-405e-beab-b72a9ab969ef}</SharePointProjectItemId>
+    </None>
+    <None Include="WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2dfde45e-ebda-4c0a-8af2-b708de66b239}</SharePointProjectItemId>
+    </None>
+    <None Include="Workflows\MBA_Intake\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4c9fba3-413e-458e-bfff-02fdf40e6853}</SharePointProjectItemId>
+    </None>
+    <None Include="WorkflowTaskList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4789e08a-99f7-4422-9484-82c025f69b4c}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +140,25 @@
     </AppManifestFile>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <XamlAppDef Include="Workflows\MBA_Intake\Workflow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities.16.0, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
