@@ -43,6 +43,8 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Site Columns\Department\Elements.xml" />
+    <Content Include="Site Columns\SessionStage\Elements.xml" />
     <None Include="Lists\Session\SessionsE25\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8efff0ee-c453-4646-ad73-1b98cd30df8e}</SharePointProjectItemId>
     </None>
@@ -60,6 +62,12 @@
     <Content Include="Lists\Session\SessionsE25\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Site Columns\Department\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1dfe4ee3-b0fa-4ec4-b8f1-4b74645dbddd}</SharePointProjectItemId>
+    </None>
+    <None Include="Site Columns\SessionStage\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{160cdfa2-6b26-405e-beab-b72a9ab969ef}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.9.1.min.map" />

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{f269a68c-97b0-46e5-8663-5653b2d27bc7}"
+       Name="SessionStage"
+       Title="SessionStage"
+       DisplayName="Етап заняття"
+       Group="Activities Planning"
+       Description="The stage at which the activities are"
+       Type="Choice"
+       Required="TRUE">
+    <CHOICES>
+      <CHOICE>Not Started</CHOICE>
+      <CHOICE>Session announced</CHOICE>
+      <CHOICE>Session prepared</CHOICE>
+      <CHOICE>Session in progress</CHOICE>
+      <CHOICE>Session finished</CHOICE>
+    </CHOICES>
+    <MAPPINGS>
+      <MAPPING Value="1">Not Started</MAPPING>
+      <MAPPING Value="2">Session announced</MAPPING>
+      <MAPPING Value="3">Session prepared</MAPPING>
+      <MAPPING Value="4">Session in progress</MAPPING>
+      <MAPPING Value="5">Session finished</MAPPING>
+    </MAPPINGS>
+    <Default>Not Started</Default>
+  </Field>
+</Elements>

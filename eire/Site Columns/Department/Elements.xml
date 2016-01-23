@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{33cae7d6-d2cf-4867-b4b1-19034761b451}"
+       Name="SchoolDepartment"
+       Title="SchoolDepartment"
+       DisplayName="Відділ школи"
+       Type="Text"
+       Required="FALSE"
+       Description="The division unit at which the session is conducted"
+       Group="Activities Planning">
+  </Field>
+</Elements>
