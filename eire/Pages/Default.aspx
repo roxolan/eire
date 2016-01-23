@@ -27,10 +27,6 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <p>
-    <asp:HyperLink  runat="server" 
-                    NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Lists/NewLearningSessionsE25/AllItems.aspx';" 
-                    Text="Заплановані заняття у E25" />
-    </p>
+    <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="HomePage1" Title="loc:full" />
 
 </asp:Content>
