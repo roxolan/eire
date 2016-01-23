@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<List xmlns:ows="Microsoft SharePoint" Title="Session" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Session" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+<List xmlns:ows="Microsoft SharePoint" Title="NewLearningSession" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/NewLearningSession" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
   <MetaData>
     <ContentTypes>
       

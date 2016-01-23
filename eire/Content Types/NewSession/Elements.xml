@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Елемент (0x01) -->
+  <ContentType ID="0x01002E0683C6DBDF4D8EB71E4ADA1D080A8D" Name="NewSession" Group="Activities Planning" Description="My Content Type" Inherits="FALSE" Version="0">
+    <FieldRefs></FieldRefs>
+  </ContentType>
+</Elements>

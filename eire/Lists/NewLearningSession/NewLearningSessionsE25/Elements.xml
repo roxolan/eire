@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ListInstance Title="Заняття групи E25" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/SessionsE25" Description="Заплановані найближчим часом заняття групи E25">
+  <ListInstance Title="Нові заняття E25" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/NewLearningSessionsE25" Description="Заплановані найближчим часом заняття групи E25">
     <Data>
       <Rows>
         <Row>

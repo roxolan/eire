@@ -43,26 +43,34 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Site Columns\Department\Elements.xml" />
+    <Content Include="Content Types\NewSession\Elements.xml" />
+    <Content Include="Features\SessionComponents\SessionComponents.Template.xml" />
+    <Content Include="Site Columns\SchoolDepartment\Elements.xml" />
     <Content Include="Site Columns\SessionStage\Elements.xml" />
-    <None Include="Lists\Session\SessionsE25\SharePointProjectItem.spdata">
+    <None Include="Content Types\NewSession\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{846d2899-5acb-4ef8-a29f-0dddb0558b27}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\SessionComponents\SessionComponents.feature">
+      <FeatureId>{e0ed7426-8df8-40f2-9534-5c0dcfce60d2}</FeatureId>
+    </None>
+    <None Include="Lists\NewLearningSession\NewLearningSessionsE25\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8efff0ee-c453-4646-ad73-1b98cd30df8e}</SharePointProjectItemId>
     </None>
-    <None Include="Lists\Session\SharePointProjectItem.spdata">
+    <None Include="Lists\NewLearningSession\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{bd22d4fb-3549-40ad-b3e0-0d5e667082cc}</SharePointProjectItemId>
     </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{7504b89b-3970-46e5-8e75-185cf8125ac1}</SharePointProjectItemId>
     </None>
-    <Content Include="Lists\Session\Elements.xml">
+    <Content Include="Lists\NewLearningSession\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Lists\Session\Schema.xml" />
-    <Content Include="Lists\Session\SessionsE25\Elements.xml" />
+    <Content Include="Lists\NewLearningSession\Schema.xml" />
+    <Content Include="Lists\NewLearningSession\NewLearningSessionsE25\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
-    <None Include="Site Columns\Department\SharePointProjectItem.spdata">
+    <None Include="Site Columns\SchoolDepartment\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{1dfe4ee3-b0fa-4ec4-b8f1-4b74645dbddd}</SharePointProjectItemId>
     </None>
     <None Include="Site Columns\SessionStage\SharePointProjectItem.spdata">
@@ -103,12 +111,6 @@
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
-    </None>
-    <None Include="Features\SessionComponents\SessionComponents.feature">
-      <FeatureId>{58a280bf-ec51-4c21-8223-799515b8e00e}</FeatureId>
-    </None>
-    <None Include="Features\SessionComponents\SessionComponents.Template.xml">
-      <DependentUpon>SessionComponents.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

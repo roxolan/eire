@@ -29,7 +29,7 @@
 
     <p>
     <asp:HyperLink  runat="server" 
-                    NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Lists/SessionsE25/AllItems.aspx';" 
+                    NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Lists/NewLearningSessionsE25/AllItems.aspx';" 
                     Text="Заплановані заняття у E25" />
     </p>
 
