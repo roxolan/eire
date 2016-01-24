@@ -53,8 +53,8 @@
     <Content Include="Site Columns\SessionStage\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="WorkflowHistoryList\Elements.xml" />
-    <Content Include="WorkflowTaskList\Elements.xml" />
+    <Content Include="Lists\WorkflowHistoryList\Elements.xml" />
+    <Content Include="Lists\WorkflowTaskList\Elements.xml" />
     <None Include="Content Types\NewLearningSession\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{adf3e9af-73d8-4ce6-b6c1-e96beb357aaf}</SharePointProjectItemId>
     </None>
@@ -87,13 +87,13 @@
     <None Include="Site Columns\SessionStage\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{160cdfa2-6b26-405e-beab-b72a9ab969ef}</SharePointProjectItemId>
     </None>
-    <None Include="WorkflowHistoryList\SharePointProjectItem.spdata">
+    <None Include="Lists\WorkflowHistoryList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2dfde45e-ebda-4c0a-8af2-b708de66b239}</SharePointProjectItemId>
     </None>
     <None Include="Workflows\MBA_Intake\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f4c9fba3-413e-458e-bfff-02fdf40e6853}</SharePointProjectItemId>
     </None>
-    <None Include="WorkflowTaskList\SharePointProjectItem.spdata">
+    <None Include="Lists\WorkflowTaskList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4789e08a-99f7-4422-9484-82c025f69b4c}</SharePointProjectItemId>
     </None>
   </ItemGroup>
